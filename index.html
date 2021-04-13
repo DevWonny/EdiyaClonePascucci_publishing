@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/index_tab.js"></script>
+    <link href="css/swiper.css" rel="stylesheet" type="text/css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/index_pc_laptop.css" rel="stylesheet" type="text/css">
+    <link href="css/index_tab.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>PASCUCCI</title>
+</head>
+
+<body>
+    <!-- pc_laptop Ver. -->
+    <div id="pc_wrap">
+        <!-- header -->
+        <header>
+            <nav id="header_top">
+                <ul id="header_top_store">
+                    <li><a href="#">매장찾기</a></li>
+                    <li><a href="#">고객의 소리</a></li>
+                </ul>
+
+                <ul id="header_top_sns">
+                    <li><a href="#"><img src="img/pascucci_img/header/header_blog_icon.png" alt="ht_blog_icon"></a></li>
+                    <li><a href="#"><img src="img/pascucci_img/header/header_fb_icon.png" alt="ht_facebook_icon"></a>
+                    </li>
+                    <li><a href="#"><img src="img/pascucci_img/header/header_insta_icon.png"
+                                alt="ht_instagram_icon"></a></li>
+                    <li><a href="#"><img src="img/pascucci_img/header/header_yt_icon.png" alt="ht_youtube_icon"></a>
+                    </li>
+                </ul>
+
+                <select id="header_language">
+                    <option>Korean</option>
+                    <option>English</option>
+                    <option>Chinese</option>
+                </select>
+
+            </nav>
+            <!-- header top End -->
+
+            <nav id="header_bot">
+                <div id="header_logo"><a href="#"><img src="img/pascucci_img/header/header_logo.png"
+                            alt="header_logo"></a></div>
+                <ul id="menu_wrap">
+                    <li class="main_menu"><a href="#">CAFFE PSCUCCI</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">브랜드 소개</a></li>
+                            <li><a href="#">커피 &amp; 컬쳐</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="main_menu"><a href="#">MENU</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">Coffe</a></li>
+                            <li><a href="#">Beverage</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">MD</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="main_menu"><a href="#">NEWS</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">파스쿠찌 Talk</a></li>
+                            <li><a href="#">홍보센터</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="main_menu"><a href="#">STORE</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">매장안내</a></li>
+                            <li><a href="#">파스쿠찌쁘레미오</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="main_menu"><a href="#">CUSTOMER</a>
+                        <ul class="sub_menu">
+                            <li><a href="#">제휴안내</a></li>
+                            <li><a href="#">자주하는질문</a></li>
+                            <li><a href="#">1:1문의하기</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- header bot End -->
+        </header>
+        <!-- header End -->
+
+        <!-- section -->
+        <section>
+
+
+            <!-- Swiper -->
+            <div class="swiper-container" id="main_container">
+                <div class="swiper-wrapper" id="main_wrapper">
+
+                    <div class="swiper-slide main_slide">
+                        <a href="#"><img src="img/pascucci_img/main_slide/main_slide_1_new.jpg"
+                                alt="main_slide_img"></a>
+                    </div>
+
+                    <div class="swiper-slide main_slide">
+                        <a href="#"><img src="img/pascucci_img/main_slide/main_slide_2_new.jpg"
+                                alt="main_slide_img"></a>
+                    </div>
+
+                    <div class="swiper-slide main_slide">
+                        <a href="#"><img src="img/pascucci_img/main_slide/main_slide_3_new.jpg"
+                                alt="main_slide_img"></a>
+                    </div>
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('#main_container', {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    autoplay: {
+                        delay: 2000
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            </script>
+
+
+            <!-- drip wrap -->
+            <article id="drip_wrap">
+                <div id="drip_text_wrap">
+                    <div id="drip_text_box">
+                        <h2 id="drip_title"><span id="drip_red">DRIP</span> COFFEE BEG</h2>
+                        <hr id="dirp_line">
+                        <div id="drip_text">
+                            <p>이탈리아 직수입 제품으로 언제 어디서든 간편하게</p>
+                            <p>파스쿠찌 커피를 즐길 수 있는 드립커피백</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- drip slide mask -->
+                <div id="drip_slide_mask">
+                    <div id="drip_slide_wrap">
+
+                        <div class="drip_slide_box">
+
+                            <div class="drip_slide_img_box">
+                                <a href="#"><img src="img/pascucci_img/bean_section/drip_1/drip_brasile_new.jpg"
+                                        alt="drip_img_1"></a>
+                                <div class="drip_slide_text">
+                                    <h5 class="drip_slide_title"><a href="#">브라질</a></h5>
+                                    <span class="drip_slide_eng"><a href="#">Brasile</a></span>
+                                </div>
+                            </div>
+
+                            <div class="drip_slide_img_box">
+                                <a href="#"><img src="img/pascucci_img/bean_section/drip_1/drip_etiopia_new.jpg"
+                                        alt="drip_img_2"></a>
+                                <div class="drip_slide_text">
+                                    <h5 class="drip_slide_title"><a href="#">에티오피아</a></h5>
+                                    <span class="drip_slide_eng"><a href="#">Etiopia</a></span>
+                                </div>
+                            </div>
+
+                            <div class="drip_slide_img_box">
+                                <a href="#"><img src="img/pascucci_img/bean_section/drip_1/drip_gold_new.jpg"
+                                        alt="drip_img_3"></a>
+                                <div class="drip_slide_text">
+                                    <h5 class="drip_slide_title"><a href="#">골든색</a></h5>
+                                    <span class="drip_slide_eng"><a href="#">Golden Sack</a></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- drip slide box End -->
+
+
+                        <div class="drip_slide_box">
+
+                            <div class="drip_slide_img_box" id="drip_slide_img_box_2">
+                                <a href="#"><img src="img/pascucci_img/bean_section/drip_2/drip_colombia_new.jpg"
+                                        alt="drip_img_4"></a>
+                                <div class="drip_slide_text">
+                                    <h5 class="drip_slide_title"><a href="#">콜롬비아</a></h5>
+                                    <span class="drip_slide_eng"><a href="#">Colombia</a></span>
+                                </div>
+                            </div>
+
+                            <div class="drip_slide_img_box" id="drip_slide_img_box_3">
+                                <a href="#"><img src="img/pascucci_img/bean_section/drip_2/drip_guatemala_new.jpg"
+                                        alt="drip_img_5"></a>
+                                <div class="drip_slide_text">
+                                    <h5 class="drip_slide_title"><a href="#">과테말라</a></h5>
+                                    <span class="drip_slide_eng"><a href="#">Guatemala</a></span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- drip slide img box End -->
+
+                    </div>
+                    <p id="drip_prev_icon">&lt;</p>
+                    <p id="drip_next_icon">&gt;</p>
+                </div>
+                <!-- drip slide mask End -->
+
+            </article>
+            <!-- drip wrap End -->
+
+            <!-- banner wrap -->
+            <article id="banner_wrap">
+
+                <!-- brand banner -->
+                <div id="brand_banner">
+                    <!-- img는 background-image 로 -->
+                    <h1 id="brand_banner_title">CAFFE PASCUCCI</h1>
+                    <p id="brand_banner_contents">전통을 담은 한잔의 커피,<br />전통을 이어온 따뜻한 디저트&amp;푸드<br />보다 완전한 서비스를 위해</p>
+                </div>
+                <!-- brand banner End -->
+
+                <!-- menu banner -->
+                <div id="menu_banner">
+                    <!-- img는 background-image 로 -->
+                    <div id="menu_banner_text_wrap">
+                        <div id="menu_banner_title">ALWAYS BESIDE YOU, <h1 id="menu_banner_second_title">CAFFE PASCUCCI
+                            </h1>
+                        </div>
+                        <hr id="menu_banner_line">
+                        <p id="menu_banner_contents">늘 당신 곁에, 카페 파스쿠찌의 다야한 메뉴를 맛보세요.</p>
+                        <div id="menu_banner_more"><a href="#">메뉴보기</a></div>
+                    </div>
+                </div>
+                <!-- menu banner End -->
+
+                <!-- franchise banner -->
+                <div id="franchise_banner">
+                    <!-- img는 background-image 로 -->
+                    <h2 id="franchise_banner_title">고객과 가맹점주, 협력사의<br />상생의 가치를 실현합니다.</h2>
+                    <p id="franchise_banner_contents">카페 창업 성공과 시작, 파스쿠찌와 동행하십시오.</p>
+                    <ul id="franchise_banner_btn_wrap">
+                        <li class="franchise_banner_btn"><a href="#">가맹안내</a></li>
+                        <li class="franchise_banner_btn"><a href="#">가맹설명회 안내</a></li>
+                        <li class="franchise_banner_btn"><a href="#">가맹점 개설 안내</a></li>
+                    </ul>
+                </div>
+                <!-- franchise banner End -->
+
+            </article>
+            <!-- banner wrap End -->
+
+            <article id="channel_wrap">
+                <!-- channel title wrap -->
+                <div id="channel_title_wrap">
+                    <div id="channel_title">PASCUCCI <h3 id="channel_title_second">CHANNEL</h3>
+                    </div>
+
+                    <p id="channel_title_contents">스토리를 마시는 일상, 카페 파스쿠찌</p>
+                    <hr id="channel_line">
+                </div>
+                <!-- channel title wrap end -->
+
+                <!-- channel contents wrap -->
+                <div id="channel_contents_wrap">
+
+                    <!-- channel contents top -->
+                    <div id="channel_contents_top">
+                        <div class="channel_frame">
+                            <!-- 동영상 넣기 -->
+                            <iframe src="https://www.youtube.com/embed/wBoj3pYZagI" frameborder="0"
+                                id="iframe_play"></iframe>
+                        </div>
+
+                        <div class="channel_frame">
+                            <img src="img/pascucci_img/channel_section/channel_img.jpg" alt="channel_img"
+                                class="channel_frame_img">
+                        </div>
+                    </div>
+                    <!-- channel contents top End -->
+
+                    <!-- channel contents bot -->
+                    <div id="channel_contents_bot">
+
+                        <div class="channel_store_wrap">
+                            <a href="#"><img src="img/pascucci_img/notice_section/franchisee_back_img_new.jpg"
+                                    alt="channel_store_img"></a>
+                            <h4 class="channel_store_title"><a href="#">가맹점 개설 안내</a></h4>
+                            <hr class="channel_line">
+                            <p class="channel_text"><a href="#">성공 창업을 위한 선택</a></p>
+                        </div>
+
+                        <div class="channel_store_wrap">
+                            <img src="img/pascucci_img/notice_section/store_back_img_new.jpg" alt="channel_store_img">
+                            <h4 class="channel_store_title">매장찾기</h4>
+                            <hr class="channel_line">
+                            <p class="channel_text">가까운 파스쿠찌 매장을<br />확인해보세요.</p>
+                            <input type="text" id="channel_input" placeholder="FIND A STORE">
+                            <a href="#"><img src="img/pascucci_img/notice_section/main_store_btn.png" alt="channel_icon"
+                                    id="channel_search_icon"></a>
+                        </div>
+
+                        <!-- channel notice wrap -->
+                        <div id="channel_notice_wrap">
+                            <h4 id="channel_notice_title">파스쿠찌 소식</h4>
+                            <span id="channel_notice_more"><a href="#">more &gt;</a></span>
+                            <table id="channel_notice_list">
+                                <tr class="channel_notice_list_row">
+                                    <td class="channel_notice_contents"><a href="#">파스쿠찌 음료별 카페인 함량 안내</a></td>
+                                    <td class="channel_notice_date"><a href="#">2021.02.16</a></td>
+                                </tr>
+
+                                <tr class="channel_notice_list_row">
+                                    <td class="channel_notice_contents"><a href="#">해피포인트 사용 기준 변경 안내</a></td>
+                                    <td class="channel_notice_date"><a href="#">2019.11.22</a></td>
+                                </tr>
+
+                                <tr class="channel_notice_list_row">
+                                    <td class="channel_notice_contents"><a href="#">파스쿠찌 홈페이지 개인정보처리방침 변경 안내</a></td>
+                                    <td class="channel_notice_date"><a href="#">2019.09.16</a></td>
+                                </tr>
+
+                                <tr class="channel_notice_list_row">
+                                    <td class="channel_notice_contents"><a href="#">해피포인트 추가 적립률 변경 안내</a></td>
+                                    <td class="channel_notice_date"><a href="#">2019.08.30</a></td>
+                                </tr>
+                            </table>
+                            <!-- channel notice list End -->
+                        </div>
+                        <!-- channel notice wrap End -->
+
+                    </div>
+                    <!-- channel contents bot End -->
+                </div>
+                <!-- channel contents wrap End -->
+            </article>
+            <!-- channel wrap End -->
+
+            <!-- sns wrap -->
+            <article id="sns_wrap">
+                <div id="sns_title_wrap">
+                    <h4 id="sns_title">CAFFE PASCUCCI SNS</h4>
+                    <hr id="sns_line">
+                    <span id="sns_contents">Coffe moment with PASCUCCI</span>
+                </div>
+
+                <div id="sns_img_wrap">
+                    <!-- img row top -->
+                    <div class="sns_img_row">
+                        <div class="sns_img"><a href="#"><img src="img/pascucci_img/sns_section/sns_new_img_1.jpg"
+                                    alt="sns_img"></a></div>
+                        <div class="sns_img"><a href="#"><img src="img/pascucci_img/sns_section/sns_new_img_2.jpg"
+                                    alt="sns_img"></a></div>
+                        <div class="sns_img"><a href="#"><img src="img/pascucci_img/sns_section/sns_new_img_3.jpg"
+                                    alt="sns_img"></a></div>
+                        <div class="sns_img"><a href="#"><img src="img/pascucci_img/sns_section/sns_new_img_4.jpg"
+                                    alt="sns_img"></a></div>
+                        <div class="sns_img"><a href="#"><img src="img/pascucci_img/sns_section/sns_new_img_5.jpg"
+                                    alt="sns_img"></a></div>
+                    </div>
+
+                    <!-- img row bot -->
+                    <div class="sns_img_row">
+                        <div class="sns_img"><a href="#"><img src="img/pascucci_img/sns_section/sns_new_img_6.jpg"
+                                    alt="sns_img"></a></div>
+                        <div class="sns_img"><a href="#"><img src="img/pascucci_img/sns_section/sns_new_img_7.jpg"
+                                    alt="sns_img"></a></div>
+                        <div class="sns_img"><a href="#"><img src="img/pascucci_img/sns_section/sns_new_img_8.jpg"
+                                    alt="sns_img"></a></div>
+                        <div class="sns_img"><a href="#"><img src="img/pascucci_img/sns_section/sns_new_img_9.jpg"
+                                    alt="sns_img"></a></div>
+                        <div class="sns_img"><a href="#"><img src="img/pascucci_img/sns_section/sns_new_img_10.jpg"
+                                    alt="sns_img"></a></div>
+                    </div>
+                </div>
+            </article>
+            <!-- sns wrap End -->
+
+        </section>
+        <!-- section End -->
+
+        <!-- footer -->
+        <footer>
+            <!-- footer top -->
+            <div id="footer_top">
+                <ul id="footer_menu">
+                    <li><a href="#">해피포인트</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">영상정보처리기기운영</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">윤리신고센터</a></li>
+                    <li><a href="#">거래희망사전등록</a></li>
+                </ul>
+            </div>
+            <!-- footer top End -->
+
+            <!-- footer bot -->
+            <div id="footer_bot">
+                <!-- footer left -->
+                <div id="footer_left">
+                    <div id="footer_logo"><a href="#"><img src="img/pascucci_img/footer/foot_logo.png"
+                                alt="footer_logo"></a></div>
+                    <div id="footer_text_box">
+                        <p class="footer_text">(주)파리크라상사업자등록 번호 : 129-81-07244</p>
+                        <p class="footer_text">경기도 성남시 중원구 사기막골로31번기 18 FAX.0505-073-0210 고객상담센터 080-731-2027</p>
+                        <p class="footer_text">ALL RIGHTS RESERVED &copy; 2016 THE PASCUCCI, PARIS CROISSANT CO.,LTD.
+                        </p>
+                    </div>
+                </div>
+                <!-- footer left End -->
+
+                <!-- footer right -->
+                <div id="footer_right">
+                    <div id="footer_right_top">
+                        <a href="#"><img src="img/pascucci_img/footer/foot_ic_award.png" alt="footer_award"
+                                class="footer_award_icon"></a>
+                        <a href="#"><img src="img/pascucci_img/footer/foot_ic_ccm.png" alt="footer_ccm"
+                                class="footer_ccm_icon"></a>
+                    </div>
+
+                    <ul id="footer_right_mid">
+                        <li><a href="#"><img src="img/pascucci_img/footer/foot_ic_blog.png" alt="footer_sns_icon"></a>
+                        </li>
+                        <li><a href="#"><img src="img/pascucci_img/footer/foot_ic_facebook.png"
+                                    alt="footer_sns_icon"></a></li>
+                        <li><a href="#"><img src="img/pascucci_img/footer/foot_ic_insta.png" alt="footer_sns_icon"></a>
+                        </li>
+                        <li><a href="#"><img src="img/pascucci_img/footer/foot_ic_youtube.png"
+                                    alt="footer_sns_icon"></a></li>
+                    </ul>
+
+                    <div id="footer_familysite">패밀리 사이트 바로가기</div>
+                    <ul id="footer_familysite_more">
+                        <li><a href="#">SPC그룹</a></li>
+                        <li><a href="#">던킨도너츠</a></li>
+                        <li><a href="#">배스킨라빈스31</a></li>
+                        <li><a href="#">해피포인트카드</a></li>
+                        <li><a href="#">파리바게트</a></li>
+                        <li><a href="#">파리크라상</a></li>
+                        <li><a href="#">해피콘</a></li>
+                        <li><a href="#">SPC컬리너리아카데미</a></li>
+                        <li><a href="#">파스쿠찌 이탈리아</a></li>
+                    </ul>
+
+                </div>
+                <!-- footer right End -->
+            </div>
+            <!-- footer bot End -->
+        </footer>
+        <!-- footer End -->
+
+        <div id="top_btn"><img src="img/pascucci_img/common_icon/top_btn_icon_new.png" alt="top_btn_icon"></div>
+    </div>
+    <!-- pc wrap End -->
+
+    <!-- tab Ver. -->
+    <div id="tab_wrap">
+        <header id="tab_header">
+            <div id="tab_logo"><a href="#"><img src="img/pascucci_img/tab_mobile/header/header_logo.png"
+                        alt="tab_header_logo"></a></div>
+            <div id="tab_menu_btn"><img src="img/pascucci_img/tab_mobile/header/menu_icon.png" alt="tab_menu_btn"></div>
+        </header>
+        <!-- tab header End -->
+
+        <section id="tab_section">
+
+            <!-- tab main slide -->
+            <!-- Swiper -->
+            <div class="swiper-container" id="tab_main_container">
+                <div class="swiper-wrapper" id="tab_main_wrapper">
+                    <div class="swiper-slide tab_main_slide"><a href="#"><img
+                                src="img/pascucci_img/tab_mobile/main_slide/main_slide_1.jpg" alt="tab_slide_img"></a>
+                    </div>
+                    <div class="swiper-slide tab_main_slide"><a href="#"><img
+                                src="img/pascucci_img/tab_mobile/main_slide/main_slide_2.jpg" alt="tab_slide_img"></a>
+                    </div>
+                    <div class="swiper-slide tab_main_slide"><a href="#"><img
+                                src="img/pascucci_img/tab_mobile/main_slide/main_slide_3.jpg" alt="tab_slide_img"></a>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next" id="tab_main_next"></div>
+                <div class="swiper-button-prev" id="tab_main-prev"></div>
+            </div>
+
+            <!-- Swiper JS -->
+            <script src="../package/swiper-bundle.min.js"></script>
+
+            <!-- Initialize Swiper -->
+            <script>
+                var swiper = new Swiper('#tab_main_container', {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '#tab_main_next',
+                        prevEl: '#tab_main-prev',
+                    },
+                });
+            </script>
+            <!-- tab main slide End -->
+
+            <!-- tab drip wrap -->
+            <div id="tab_drip_wrap">
+                <div id="tab_drip_text">
+                    <h1 id="tab_drip_title"><span id="tab_drip_color">DRIP</span> COFFEE BEG</h1>
+                    <hr id="tab_drip_line">
+                    <div id="tab_drip_contents">이탈리아 직수입 제품으로 언제 어디서든 간편하게<br />파스쿠찌 커피를 즐길 수 있는 드립커피백</div>
+                </div>
+
+                <!-- Swiper -->
+                <div class="swiper-container" id="tab_drip_container">
+                    <div class="swiper-wrapper" id="tab_drip_wrapper">
+                        <div class="swiper-slide tab_drip_slide">
+                            <div class="tab_drip_slide_contents">
+                                <a href="#"><img src="img/pascucci_img/tab_mobile/bean_section/drip_brasile_tab.jpg"
+                                        alt="tab_drip_contents_img"></a>
+                                <div class="tab_drip_slide_text">
+                                    <span class="tab_drip_title">브라질</span><br />
+                                    <span class="tab_drip_en">Brasile</span>
+                                </div>
+                            </div>
+
+                            <div class="tab_drip_slide_contents">
+                                <a href="#"><img src="img/pascucci_img/tab_mobile/bean_section/drip_etiopia_tab.jpg"
+                                        alt="tab_drip_contents_img"></a>
+                                <div class="tab_drip_slide_text">
+                                    <span class="tab_drip_title">에티오피아</span><br />
+                                    <span class="tab_drip_en">Etiopia</span>
+                                </div>
+                            </div>
+
+                            <div class="tab_drip_slide_contents">
+                                <a href="#"><img src="img/pascucci_img/tab_mobile/bean_section/drip_golden_tab.jpg"
+                                        alt="tab_drip_contents_img"></a>
+                                <div class="tab_drip_slide_text">
+                                    <span class="tab_drip_title">골든색</span><br />
+                                    <span class="tab_drip_en">Golden Sack</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="swiper-slide tab_drip_slide">
+                            <div class="tab_drip_slide_contents">
+                                <a href="#"><img src="img/pascucci_img/tab_mobile/bean_section/drip_colombia_tab.jpg"
+                                        alt="tab_drip_contents_img"></a>
+                                <div class="tab_drip_slide_text">
+                                    <span class="tab_drip_title">콜롬비아</span><br />
+                                    <span class="tab_drip_en">Colombia</span>
+                                </div>
+                            </div>
+
+                            <div class="tab_drip_slide_contents">
+                                <a href="#"><img src="img/pascucci_img/tab_mobile/bean_section/drip_guatemala_tab.jpg"
+                                        alt="tab_drip_contents_img"></a>
+                                <div class="tab_drip_slide_text">
+                                    <span class="tab_drip_title">과테말라</span><br />
+                                    <span class="tab_drip_en">Guatemala</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="../package/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper('#tab_drip_container', {
+                        slidesPerView: 1,
+                        spaceBetween: 30,
+                        loop: true,
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        },
+                        navigation: {
+                            nextEl: '.swiper-button-next',
+                            prevEl: '.swiper-button-prev',
+                        },
+                    });
+                </script>
+
+            </div>
+            <!-- tab drip wrap End -->
+
+            <!-- tab banner wrap -->
+            <div id="tab_banner_wrap">
+                <!-- img 전부 css에서 넣기 -->
+
+                <div id="tab_brand_banner">
+                    <div id="tab_brand_contents">
+                        <h2 id="tab_brand_title">CAFFEE PASCUCCI</h2>
+                        <p id="tab_brand_text">전통을 담은 한잔의 커피,<br />전통을 이어온 따뜻한 디저트&amp;푸드<br />보다 완전한 서비스를 위해</p>
+                    </div>
+                </div>
+
+                <div id="tab_menu_banner">
+                    <div id="tab_menu_contents">
+                        <h2 id="tab_menu_title"><span>ALWAYS BESIDE YOU,</span> CAFFEE PASCUCCI</h2>
+                        <hr id="tab_menu_line">
+                        <p id="tab_menu_text">늘 당신 곁에, 카페 파스쿠찌의 다양한 메뉴를 맛보세요.</p>
+                        <div id="tab_menu_more"><a href="#">메뉴보기</a></div>
+                    </div>
+                </div>
+
+                <div id="tab_franchise_banner">
+                    <div id="tab_franchise_contents">
+                        <h2 id="tab_franchise_title">고객과 가맹점주, 협력사의<br />상생의 가치를 실현합니다.</h2>
+                        <p id="tab_franchise_text">카페 창업의 성공과 시작, 파스쿠찌와 동행하십시오.</p>
+                        <div id="tab_franchise_more_box">
+                            <div class="tab_frnachise_more"><a href="#">가맹안내</a></div>
+                            <div class="tab_frnachise_more"><a href="#">가맹설명회 안내</a></div>
+                            <div class="tab_frnachise_more"><a href="#">가맹점 개설 안내</a></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- tab banner wrap End -->
+
+            <!-- tab channel wrap -->
+            <div id="tab_channel_wrap">
+                <div id="tab_channel_title_box">
+                    <h1 id="tab_channel_title">PASCUCCI <span>CHANNEL</span></h1>
+                    <p id="tab_channel_contents">스토리를 마시는 일상, 카페 파스쿠찌</p>
+                    <hr id="tab_channel_line">
+                </div>
+
+                <div id="tab_channel_top">
+                    <iframe src="https://www.youtube.com/embed/wBoj3pYZagI" frameborder="0"
+                        id="tab_iframe_play"></iframe>
+                    <div id="tab_channel_img"><img src="img/pascucci_img/tab_mobile/channel_wrap/channel_img.jpg"
+                            alt="channel_img"></div>
+                </div>
+
+                <div id="tab_channel_mid">
+                    <div id="tab_channel_franchise">
+                        <!-- img css에서 넣기 -->
+                        <div id="tab_channel_franchise_contents">
+                            <h2 id="tab_channel_franchise_title">가맹점 개설 안내</h2>
+                            <hr id="tab_channel_franchise_line">
+                            <p id="tab_channel_franchise_text">성공 창업을 위한 선택</p>
+                        </div>
+                    </div>
+
+                    <div id="tab_channel_store">
+                        <!-- img css에서 넣기 -->
+                        <div id="tab_channel_store_contents">
+                            <h2 id="tab_channel_store_title">매장 찾기</h2>
+                            <hr id="tab_channel_store_line">
+                            <div id="tab_channel_store_search_box">
+                                <input type="text" placeholder="FIND A STORE" id="tab_channel_store_search">
+                                <a href="#"><img src="img/pascucci_img/tab_mobile/notice_wrap/main_store_btn.png"
+                                        alt="tab_store_search_icon"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="tab_channel_bot">
+
+                    <div id="tab_notice_title_wrap">
+                        <h2 id="tab_notice_title">파스쿠찌 소식</h2>
+                        <div id="tab_notice_more"><a href="#">more &gt;</a></div>
+                    </div>
+
+                    <table id="tab_notice_wrap">
+
+                        <tr class="tab_notice_contents">
+                            <td>파스쿠찌 음료별 카페인 함량 안내</td>
+                            <td>2021.02.16</td>
+                        </tr>
+
+                        <tr class="tab_notice_contents">
+                            <td>해피포인트 사용 기준 변경 안내</td>
+                            <td>2019.11.22</td>
+                        </tr>
+
+                        <tr class="tab_notice_contents">
+                            <td>파스쿠찌 홈페이지 개인정보처리방침 변경 안내드립니다.</td>
+                            <td>2019.09.16</td>
+                        </tr>
+
+
+                        <tr class="tab_notice_contents">
+                            <td>해피포인트 추가 적립률 변경 안내</td>
+                            <td>2019.08.30</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+            <!-- tab channel wrap End -->
+
+            <!-- tab sns wrap -->
+            <div id="tab_sns_wrap">
+                <div id="tab_sns_title_wrap">
+                    <h1 id="tab_sns_title">CAFFEE PASCUCCI SNS</h1>
+                    <hr id="tab_sns_line">
+                    <p id="tab_sns_title_contents">Coffee moment with PASCUCCI</p>
+                </div>
+
+                <div id="tab_sns_contents_wrap">
+                    <div class="tab_sns_contents_row">
+                        <div class="tab_sns_contents"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/sns_wrap/sns_1.jpg" alt="sns_img"></a></div>
+                        <div class="tab_sns_contents"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/sns_wrap/sns_2.jpg" alt="sns_img"></a></div>
+                        <div class="tab_sns_contents"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/sns_wrap/sns_3.jpg" alt="sns_img"></a></div>
+                        <div class="tab_sns_contents"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/sns_wrap/sns_4.jpg" alt="sns_img"></a></div>
+                        <div class="tab_sns_contents"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/sns_wrap/sns_5.jpg" alt="sns_img"></a></div>
+                    </div>
+
+                    <div class="tab_sns_contents_row">
+                        <div class="tab_sns_contents"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/sns_wrap/sns_6.jpg" alt="sns_img"></a></div>
+                        <div class="tab_sns_contents"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/sns_wrap/sns_7.jpg" alt="sns_img"></a></div>
+                        <div class="tab_sns_contents"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/sns_wrap/sns_8.jpg" alt="sns_img"></a></div>
+                        <div class="tab_sns_contents"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/sns_wrap/sns_9.jpg" alt="sns_img"></a></div>
+                        <div class="tab_sns_contents"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/sns_wrap/sns_10.jpg" alt="sns_img"></a></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- tab sns wrap End -->
+
+        </section>
+        <!-- tab section End -->
+
+        <footer id="tab_footer">
+
+            <ul id="tab_footer_menu">
+                <li><a href="#">해피포인트</a></li>
+                <li><a href="#">개인정보 처리방침</a></li>
+                <li><a href="#">영상정보처리기기운영</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">윤리신고센터</a></li>
+                <li><a href="#">거래희망사전등록</a></li>
+            </ul>
+
+            <div id="tab_footer_bot">
+                <div id="tab_footer_left">
+                    <div id="tab_footer_logo"><a href="#"><img src="img/pascucci_img/tab_mobile/footer/foot_logo.png"
+                                alt="tab_footer_logo"></a></div>
+                    <p class="tab_footer_contents">(주)파리크라상사업자 등록번호 : 129-81-07244</p>
+                    <p class="tab_footer_contents">경기도 성남시 중원구 사기막골로31번기 18 FAX.0505-073-0210 <br/>고객상담센터 080-731-2027</p>
+                    <p class="tab_footer_contents">ALL RIGHTS RESERVED&copy;2016 THE PASCUCCI, PARIS CROISSANT CO.,LTD.
+                    </p>
+                </div>
+
+                <div id="tab_footer_right">
+                    <ul class="tab_footer_right_contents">
+                        <li class="tab_footer_icon"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/footer/foot_ic_award.png"
+                                    alt="tab_footer_award"></a></li>
+                        <li class="tab_footer_icon"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/footer/foot_ic_ccm.png" alt="tab_footer_ccm"></a>
+                        </li>
+                    </ul>
+
+                    <ul class="tab_footer_right_contents">
+                        <li class="tab_footer_sns"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/footer/foot_ic_blog.png"
+                                    alt="tab_footer_blog_icon"></a></li>
+                        <li class="tab_footer_sns"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/footer/foot_ic_facebook.png"
+                                    alt="tab_footer_facebook_icon"></a></li>
+                        <li class="tab_footer_sns"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/footer/foot_ic_insta.png"
+                                    alt="tab_footer_instagram_icon"></a></li>
+                        <li class="tab_footer_sns"><a href="#"><img
+                                    src="img/pascucci_img/tab_mobile/footer/foot_ic_youtube.png"
+                                    alt="tab_footer_youtube_icon"></a></li>
+                    </ul>
+                    <div id="tab_footer_family">
+                        <p id="tab_footer_text">패밀리사이트 바로가기</p>
+                    </div>
+
+                    <ul id="tab_footer_family_box">
+                        <li><a href="#">SPC 그룹</a></li>
+                        <li><a href="#">던킨도너츠</a></li>
+                        <li><a href="#">배스킨라빈스31</a></li>
+                        <li><a href="#">해피포인트카드</a></li>
+                        <li><a href="#">파리바게뜨</a></li>
+                        <li><a href="#">파리크라상</a></li>
+                        <li><a href="#">해피콘</a></li>
+                        <li><a href="#">SPC컬러너리아카데미</a></li>
+                        <li><a href="#">파스쿠찌 이탈리아</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+        <!-- tab footer End -->
+        
+
+        <div id="tab_menu_wrap">
+            <div id="tab_menu_box">
+                <!-- tab menu header -->
+                <div id="tab_menu_header">
+                    <p id="tab_menu_customer">고객의 소리</p>
+                    <ul id="tab_menu_sns_icon">
+                        <li><a href="#"><img src="img/pascucci_img/header/header_blog_icon.png"
+                                    alt="tab_menu_sns_icon"></a></li>
+                        <li><a href="#"><img src="img/pascucci_img/header/header_insta_icon.png"
+                                    alt="tab_menu_sns_icon"></a></li>
+                        <li><a href="#"><img src="img/pascucci_img/header/header_fb_icon.png"
+                                    alt="tab_menu_sns_icon"></a></li>
+                        <li><a href="#"><img src="img/pascucci_img/header/header_yt_icon.png"
+                                    alt="tab_menu_sns_icon"></a></li>
+                    </ul>
+                    <div id="tab_menu_wrap_close"><img src="img/pascucci_img/tab_mobile/header/close_icon.png"
+                        alt="tab_menu_close"></div>
+                </div>
+                <!-- tab menu header End -->
+
+                <!-- tab menu section -->
+                <ul id="tab_menu_section">
+                    
+
+                    <li class="tab_main_menu"><a href="#">CAFE PASCUCCI</a>
+                        <img src="img/pascucci_img/tab_mobile/menu/more_icon.png" alt="tab_menu_more_btn">
+                        <ul class="tab_sub_menu">
+                            <li><a href="#">브랜드 소개</a></li>
+                            <li><a href="#">커피 &amp; 컬쳐</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tab_main_menu"><a href="#">MENU</a>
+                        <img src="img/pascucci_img/tab_mobile/menu/more_icon.png" alt="tab_menu_more_btn">
+                        <ul class="tab_sub_menu">
+                            <li><a href="#">Coffee</a></li>
+                            <li><a href="#">Beverage</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">MD</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tab_main_menu"><a href="#">NEWS</a>
+                        <img src="img/pascucci_img/tab_mobile/menu/more_icon.png" alt="tab_menu_more_btn">
+                        <ul class="tab_sub_menu">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">파스쿠찌 Talk</a></li>
+                            <li><a href="#">홍보센터</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tab_main_menu"><a href="#">STORE</a>
+                        <img src="img/pascucci_img/tab_mobile/menu/more_icon.png" alt="tab_menu_more_btn">
+                        <ul class="tab_sub_menu">
+                            <li><a href="#">매장안내</a></li>
+                            <li><a href="#">파스쿠찌쁘레미오</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="tab_main_menu"><a href="#">CUSTOMER</a>
+                        <img src="img/pascucci_img/tab_mobile/menu/more_icon.png" alt="tab_menu_more_btn">
+                        <ul class="tab_sub_menu">
+                            <li><a href="#">제휴안내</a></li>
+                            <li><a href="#">자주하는질문</a></li>
+                            <li><a href="#">1:1문의하기</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <!-- tab menu section End -->
+
+                <!-- tab menu store -->
+                <div id="tab_menu_store">
+                    <!-- 매장 찾기 아이콘 넣기!! -->
+                    <img src="img/pascucci_img/tab_mobile/menu/map.png" alt="map_icon">
+                    <p id="tab_menu_store_text"><a href="#">매장 찾기</a></p>
+
+                </div>
+                <!-- tab menu store End -->
+
+                <ul id="tab_menu_language">
+                    <li class="tab_menu_lan_on"><a href="#">Korean</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Chinese</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- tab menu wrap End -->
+
+        <div id="tab_top_btn">
+            <img src="img/pascucci_img/common_icon/top_btn_icon_new.png" alt="tab_top_btn">
+        </div>
+
+    </div>
+    <!-- tab wrap End -->
+
+</body>
+
+</html>
